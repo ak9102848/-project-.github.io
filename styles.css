@@ -1,0 +1,81 @@
+* {
+  text-decoration: none;
+}
+.navbar {
+  background-color: green;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 80px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+body {
+  background-color: rgb(255, 255, 237);
+  font-family: system-ui;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.products {
+  display: flex;
+}
+.product {
+  margin: 5;
+  padding: 5;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+.add-to-cart {
+  color: white;
+  cursor: pointer;
+}
+.remove-from-cart {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
