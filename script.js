@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   function addToCart(event) {
-    const productElement = event.target.closest('td');
+    const productElement = event.target.closest('.product');
     const productName = productElement.querySelector('h3').textContent;
     const productPrice = parseFloat(productElement.querySelector('p').textContent.replace('$', ''));
 
@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
